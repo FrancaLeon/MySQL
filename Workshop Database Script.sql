@@ -74,9 +74,8 @@ SELECT * FROM TABLE_CONSTRAINTS WHERE CONSTRAINT_SCHEMA = 'WORKSHOP';
 | def                | workshop          | PRIMARY         | workshop     | client     | PRIMARY KEY     | YES      |
 | def                | workshop          | FK_CAR_COLOR    | workshop     | color      | FOREIGN KEY     | YES      |
 | def                | workshop          | FK_CLIENT_PHONE | workshop     | phone      | FOREIGN KEY     | YES      |
-+--------------------+-------------------+-----------------+--------------+------------+-----------------+----------+
++--------------------+-------------------+-----------------+--------------+------------+-----------------+----------+ */
 
-*/
 /* CREATING PROCEDURES TO DATA INSERTION */
 
 DELIMITER $
